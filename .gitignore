@@ -1,4 +1,4 @@
 *.o
 *.exe
 *.out
-practice[0-9]
+practice*[0-9]
