@@ -21,24 +21,16 @@ int main(){
     scanf("%d",&d);
 
 printf("%d %d %d %d\n",a,b,c,d);
-    if(a>b && c>d && a>d && c>b){
-        printf("YES");
-        }
-    else if(a<b && d>c && b>c && d>a){
-        printf("YES");
-    }
-    else if(a>b && d>c && a>c && d>b){
-        printf("YES");
-    }
-    else if(a<b && c>d && b>d && c>a){
-        printf("YES");
-    }
-    else{
-        printf("NO");
-    }
-   
+
+    if(a>b && c>d && a>d && c>b) printf("YES");
+
+    else if(a<b && d>c && b>c && d>a) printf("YES");
     
+    else if(a>b && d>c && a>c && d>b) printf("YES");
     
+    else if(a<b && c>d && b>d && c>a) printf("YES");
+
+    else printf("NO");    
         
     return 0;
 }
