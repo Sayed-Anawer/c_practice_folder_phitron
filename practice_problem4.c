@@ -1,17 +1,14 @@
 #include<stdio.h>
 
 int main(){
-    int n;
-
-    printf("Input a number: ");
-    scanf("%d", &n);
+    long long int n;
+    scanf("%lld", &n);
+    printf("%lld ", n);
     while(n>1){
         if(n%2 == 0) n /= 2;
         else n=3 * n+1;
-        printf("==> %d\n", n);
-        
+        printf("%lld ", n);
     }
 
-    // printf("==> %d\n", n);
     return 0;
 }
