@@ -1,5 +1,4 @@
 // Water melon problem solution
-
 #include <stdio.h>
 
 int main(){
